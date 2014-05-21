@@ -4,6 +4,8 @@
  */
 package org.ifunpas.rkppl.Ujian;
 
+import sun.applet.Main;
+
 /**
  *
  * @author 604-10
@@ -28,5 +30,9 @@ public class Soal {
     }
     public int perkalian (int bilA, int bilB){
         return bilA * bilB;
+    }
+    public static void main(String [ ] args)
+    {
+        System.out.println("hello");
     }
 }
